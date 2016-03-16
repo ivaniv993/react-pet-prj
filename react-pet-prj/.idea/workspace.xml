@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9287f1ec-3b2e-4d3c-b438-bfd324d45796" name="Default" comment="" />
+    <list default="true" id="9287f1ec-3b2e-4d3c-b438-bfd324d45796" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="react-webpack-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -26,9 +31,44 @@
   <component name="FavoritesManager">
     <favorites_list name="react-webpack-test" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03807391">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -44,7 +84,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -67,6 +107,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -81,7 +124,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react-webpack-test" />
+              <option name="myItemId" value="react-pet-prj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -91,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react-webpack-test" />
+              <option name="myItemId" value="react-pet-prj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -101,9 +144,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,12 +151,55 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -141,6 +224,100 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -162,12 +339,29 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -198,6 +392,21 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -210,15 +419,17 @@
       <option name="number" value="Default" />
       <updated>1458126723076</updated>
       <workItem from="1458126724216" duration="508000" />
+      <workItem from="1458130939195" duration="1377000" />
+      <workItem from="1458132341241" duration="451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508000" />
+    <option name="totallyTimeSpent" value="2336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -229,7 +440,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2342246" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -244,7 +455,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -263,11 +474,432 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
+      <path value="$USER_HOME$" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">yargs</node>
+            <node x="" y="">expand-range</node>
+            <node x="" y="">postcss-modules-scope</node>
+            <node x="" y="">vary</node>
+            <node x="" y="">mime</node>
+            <node x="" y="">globals</node>
+            <node x="" y="">ee-first</node>
+            <node x="" y="">is-finite</node>
+            <node x="" y="">micromatch</node>
+            <node x="" y="">loader-utils</node>
+            <node x="" y="">normalize-url</node>
+            <node x="" y="">cliui</node>
+            <node x="" y="">stream-cache</node>
+            <node x="" y="">http-browserify</node>
+            <node x="" y="">content-disposition</node>
+            <node x="" y="">chokidar</node>
+            <node x="" y="">babel-runtime</node>
+            <node x="" y="">babel-preset-es2015</node>
+            <node x="" y="">convert-source-map</node>
+            <node x="" y="">depd</node>
+            <node x="" y="">stream-browserify</node>
+            <node x="" y="">events</node>
+            <node x="" y="">defined</node>
+            <node x="" y="">is-primitive</node>
+            <node x="" y="">qs</node>
+            <node x="" y="">errno</node>
+            <node x="" y="">iscroll</node>
+            <node x="" y="">babel-plugin-check-es2015-constants</node>
+            <node x="" y="">balanced-match</node>
+            <node x="" y="">postcss-discard-empty</node>
+            <node x="" y="">ansi-regex</node>
+            <node x="" y="">http-proxy</node>
+            <node x="" y="">jstransform</node>
+            <node x="" y="">process-nextick-args</node>
+            <node x="" y="">unpipe</node>
+            <node x="" y="">mkdirp</node>
+            <node x="" y="">babel-plugin-transform-es2015-literals</node>
+            <node x="" y="">util</node>
+            <node x="" y="">punycode</node>
+            <node x="" y="">async-each</node>
+            <node x="" y="">glob-base</node>
+            <node x="" y="">on-finished</node>
+            <node x="" y="">babel-plugin-transform-es2015-spread</node>
+            <node x="" y="">regexpu-core</node>
+            <node x="" y="">watchpack</node>
+            <node x="" y="">compression</node>
+            <node x="" y="">whet.extend</node>
+            <node x="" y="">json3</node>
+            <node x="" y="">postcss-unique-selectors</node>
+            <node x="" y="">react-iscroll</node>
+            <node x="" y="">is-number</node>
+            <node x="" y="">json5</node>
+            <node x="" y="">sort-keys</node>
+            <node x="" y="">postcss-minify-selectors</node>
+            <node x="" y="">readdirp</node>
+            <node x="" y="">util-deprecate</node>
+            <node x="" y="">os-browserify</node>
+            <node x="" y="">colors</node>
+            <node x="" y="">babel-plugin-transform-es2015-function-name</node>
+            <node x="" y="">source-list-map</node>
+            <node x="" y="">get-stdin</node>
+            <node x="" y="">detect-indent</node>
+            <node x="" y="">babel-helper-hoist-variables</node>
+            <node x="" y="">amdefine</node>
+            <node x="" y="">supports-color</node>
+            <node x="" y="">media-typer</node>
+            <node x="" y="">ieee754</node>
+            <node x="" y="">timers-browserify</node>
+            <node x="" y="">tty-browserify</node>
+            <node x="" y="">babel-helper-call-delegate</node>
+            <node x="" y="">babel-code-frame</node>
+            <node x="" y="">babel-plugin-transform-es2015-for-of</node>
+            <node x="" y="">escape-string-regexp</node>
+            <node x="" y="">is-binary-path</node>
+            <node x="" y="">os-tmpdir</node>
+            <node x="" y="">q</node>
+            <node x="" y="">envify</node>
+            <node x="" y="">reduce-function-call</node>
+            <node x="" y="">babel-generator</node>
+            <node x="" y="">clap</node>
+            <node x="" y="">whatwg-fetch</node>
+            <node x="" y="">postcss-zindex</node>
+            <node x="" y="">babel-plugin-transform-es2015-classes</node>
+            <node x="" y="">path-browserify</node>
+            <node x="" y="">repeat-element</node>
+            <node x="" y="">array-flatten</node>
+            <node x="" y="">through</node>
+            <node x="" y="">babel-loader</node>
+            <node x="" y="">sockjs</node>
+            <node x="" y="">serve-static</node>
+            <node x="" y="">express</node>
+            <node x="" y="">promise</node>
+            <node x="" y="">colormin</node>
+            <node x="" y="">regjsparser</node>
+            <node x="" y="">parse-glob</node>
+            <node x="" y="">graceful-fs</node>
+            <node x="" y="">expand-brackets</node>
+            <node x="" y="">string_decoder</node>
+            <node x="" y="">repeating</node>
+            <node x="" y="">postcss-reduce-idents</node>
+            <node x="" y="">fastparse</node>
+            <node x="" y="">postcss-ordered-values</node>
+            <node x="" y="">lazy-cache</node>
+            <node x="" y="">postcss-convert-values</node>
+            <node x="" y="">decamelize</node>
+            <node x="" y="">glob-parent</node>
+            <node x="" y="">is-equal-shallow</node>
+            <node x="" y="">postcss-modules-local-by-default</node>
+            <node x="" y="">center-align</node>
+            <node x="" y="">babel-plugin-syntax-flow</node>
+            <node x="" y="">strip-ansi</node>
+            <node x="" y="">color-string</node>
+            <node x="" y="">on-headers</node>
+            <node x="" y="">querystringify</node>
+            <node x="" y="">batch</node>
+            <node x="" y="">query-string</node>
+            <node x="" y="">has-own</node>
+            <node x="" y="">css-selector-tokenizer</node>
+            <node x="" y="">color-name</node>
+            <node x="" y="">path-is-absolute</node>
+            <node x="" y="">prr</node>
+            <node x="" y="">postcss-discard-duplicates</node>
+            <node x="" y="">babel-helper-optimise-call-expression</node>
+            <node x="" y="">chalk</node>
+            <node x="" y="">postcss-merge-longhand</node>
+            <node x="" y="">statuses</node>
+            <node x="" y="">object-assign</node>
+            <node x="" y="">babel-plugin-transform-es2015-parameters</node>
+            <node x="" y="">filename-regex</node>
+            <node x="" y="">postcss-value-parser</node>
+            <node x="" y="">svgo</node>
+            <node x="" y="">postcss-normalize-charset</node>
+            <node x="" y="">anymatch</node>
+            <node x="" y="">browserify-zlib</node>
+            <node x="" y="">fill-range</node>
+            <node x="" y="">private</node>
+            <node x="" y="">sprintf-js</node>
+            <node x="" y="">color</node>
+            <node x="" y="">babel-plugin-transform-react-display-name</node>
+            <node x="" y="">to-fast-properties</node>
+            <node x="" y="">domain-browser</node>
+            <node x="" y="">escape-html</node>
+            <node x="" y="">mockjson</node>
+            <node x="" y="">is-buffer</node>
+            <node x="" y="">core-js</node>
+            <node x="" y="">shebang-regex</node>
+            <node x="" y="">trim-right</node>
+            <node x="" y="">is-svg</node>
+            <node x="" y="">is-extglob</node>
+            <node x="" y="">vm-browserify</node>
+            <node x="" y="">user-home</node>
+            <node x="" y="">postcss-colormin</node>
+            <node x="" y="">babel-plugin-transform-es2015-arrow-functions</node>
+            <node x="" y="">content-type</node>
+            <node x="" y="">babel-helper-builder-react-jsx</node>
+            <node x="" y="">window-size</node>
+            <node x="" y="">babel-plugin-transform-es2015-block-scoped-functions</node>
+            <node x="" y="">csso</node>
+            <node x="" y="">browserslist</node>
+            <node x="" y="">babel-plugin-transform-es2015-modules-commonjs</node>
+            <node x="" y="">core-util-is</node>
+            <node x="" y="">argparse</node>
+            <node x="" y="">faye-websocket</node>
+            <node x="" y="">js-yaml</node>
+            <node x="" y="">connect-history-api-fallback</node>
+            <node x="" y="">babel-plugin-transform-es2015-object-super</node>
+            <node x="" y="">babel-preset-react</node>
+            <node x="" y="">babel-plugin-transform-es2015-typeof-symbol</node>
+            <node x="" y="">for-in</node>
+            <node x="" y="">inherit</node>
+            <node x="" y="">interpret</node>
+            <node x="" y="">clone</node>
+            <node x="" y="">concat-map</node>
+            <node x="" y="">path-exists</node>
+            <node x="" y="">cookie-signature</node>
+            <node x="" y="">postcss-merge-idents</node>
+            <node x="" y="">cssnano</node>
+            <node x="" y="">babel-plugin-transform-es2015-destructuring</node>
+            <node x="" y="">arrify</node>
+            <node x="" y="">regex-cache</node>
+            <node x="" y="">fresh</node>
+            <node x="" y="">strict-uri-encode</node>
+            <node x="" y="">date-now</node>
+            <node x="" y="">for-own</node>
+            <node x="" y="">react-dom</node>
+            <node x="" y="">serve-index</node>
+            <node x="" y="">lodash</node>
+            <node x="" y="">source-map</node>
+            <node x="" y="">webpack-es6-config</node>
+            <node x="" y="">websocket-driver</node>
+            <node x="" y="">minimatch</node>
+            <node x="" y="">negotiator</node>
+            <node x="" y="">reduce-css-calc</node>
+            <node x="" y="">react</node>
+            <node x="" y="">babel-plugin-transform-es2015-template-literals</node>
+            <node x="" y="">ansi-styles</node>
+            <node x="" y="">has-ansi</node>
+            <node x="" y="">braces</node>
+            <node x="" y="">parseurl</node>
+            <node x="" y="">kind-of</node>
+            <node x="" y="">querystring-es3</node>
+            <node x="" y="">url-parse</node>
+            <node x="" y="">eventemitter3</node>
+            <node x="" y="">icss-replace-symbols</node>
+            <node x="" y="">uglify-to-browserify</node>
+            <node x="" y="">indexes-of</node>
+            <node x="" y="">postcss-filter-plugins</node>
+            <node x="" y="">postcss-minify-font-values</node>
+            <node x="" y="">pako</node>
+            <node x="" y="">has-flag</node>
+            <node x="" y="">isobject</node>
+            <node x="" y="">is-absolute-url</node>
+            <node x="" y="">babel-plugin-transform-es2015-block-scoping</node>
+            <node x="" y="">home-or-tmp</node>
+            <node x="" y="">cookie</node>
+            <node x="" y="">react-hot-loader</node>
+            <node x="" y="">babel-plugin-transform-react-jsx</node>
+            <node x="" y="">babel-plugin-transform-es2015-shorthand-properties</node>
+            <node x="" y="">destroy</node>
+            <node x="" y="">fbjs</node>
+            <node x="" y="">minimist</node>
+            <node x="" y="">babel-helper-function-name</node>
+            <node x="" y="">websocket-extensions</node>
+            <node x="" y="">forwarded</node>
+            <node x="" y="">invariant</node>
+            <node x="" y="">react-hot-api</node>
+            <node x="" y="">regenerate</node>
+            <node x="" y="">postcss-selector-parser</node>
+            <node x="" y="">extglob</node>
+            <node x="" y="">postcss-calc</node>
+            <node x="" y="">https-browserify</node>
+            <node x="" y="">repeat-string</node>
+            <node x="" y="">babel-types</node>
+            <node x="" y="">react-infinite-extended</node>
+            <node x="" y="">etag</node>
+            <node x="" y="">randomatic</node>
+            <node x="" y="">ua-parser-js</node>
+            <node x="" y="">merge-descriptors</node>
+            <node x="" y="">postcss-minify-params</node>
+            <node x="" y="">postcss-discard-comments</node>
+            <node x="" y="">babel-plugin-transform-strict-mode</node>
+            <node x="" y="">console-browserify</node>
+            <node x="" y="">Base64</node>
+            <node x="" y="">longest</node>
+            <node x="" y="">css-loader</node>
+            <node x="" y="">compressible</node>
+            <node x="" y="">methods</node>
+            <node x="" y="">finalhandler</node>
+            <node x="" y="">style-loader</node>
+            <node x="" y="">babel-helper-define-map</node>
+            <node x="" y="">requires-port</node>
+            <node x="" y="">tapable</node>
+            <node x="" y="">babel-helper-regex</node>
+            <node x="" y="">http-errors</node>
+            <node x="" y="">array-unique</node>
+            <node x="" y="">assert</node>
+            <node x="" y="">uglify-js</node>
+            <node x="" y="">isarray</node>
+            <node x="" y="">optimist</node>
+            <node x="" y="">crypto-browserify</node>
+            <node x="" y="">postcss-discard-unused</node>
+            <node x="" y="">inherits</node>
+            <node x="" y="">utils-merge</node>
+            <node x="" y="">postcss-minify-gradients</node>
+            <node x="" y="">loose-envify</node>
+            <node x="" y="">postcss-reduce-transforms</node>
+            <node x="" y="">arr-flatten</node>
+            <node x="" y="">is-glob</node>
+            <node x="" y="">url</node>
+            <node x="" y="">is-plain-obj</node>
+            <node x="" y="">babel-plugin-transform-flow-strip-types</node>
+            <node x="" y="">babel-plugin-transform-es2015-sticky-regex</node>
+            <node x="" y="">coa</node>
+            <node x="" y="">ipaddr.js</node>
+            <node x="" y="">esutils</node>
+            <node x="" y="">range-parser</node>
+            <node x="" y="">babel-traverse</node>
+            <node x="" y="">babel-plugin-syntax-async-functions</node>
+            <node x="" y="">css-color-names</node>
+            <node x="" y="">node-libs-browser</node>
+            <node x="" y="">babel-register</node>
+            <node x="" y="">normalize-path</node>
+            <node x="" y="">num2fraction</node>
+            <node x="" y="">color-convert</node>
+            <node x="" y="">sockjs-client</node>
+            <node x="" y="">babel-plugin-transform-es2015-computed-properties</node>
+            <node x="" y="">jsesc</node>
+            <node x="" y="">webpack-core</node>
+            <node x="" y="">base62</node>
+            <node x="" y="">eventsource</node>
+            <node x="" y="">constants-browserify</node>
+            <node x="" y="">babel-messages</node>
+            <node x="" y="">flatten</node>
+            <node x="" y="">path-to-regexp</node>
+            <node x="" y="">webpack-dev-middleware</node>
+            <node x="" y="">webpack</node>
+            <node x="" y="">wordwrap</node>
+            <node x="" y="">autoprefixer</node>
+            <node x="" y="">left-pad</node>
+            <node x="" y="">enhanced-resolve</node>
+            <node x="" y="">postcss-modules-extract-imports</node>
+            <node x="" y="">buffer</node>
+            <node x="" y="">webpack-dev-server</node>
+            <node x="" y="">babel-helper-replace-supers</node>
+            <node x="" y="">accepts</node>
+            <node x="" y="">node-uuid</node>
+            <node x="" y="">ms</node>
+            <node x="" y="">js-tokens</node>
+            <node x="" y="">querystring</node>
+            <node x="" y="">babel-plugin-transform-es2015-duplicate-keys</node>
+            <node x="" y="">babel-core</node>
+            <node x="" y="">preserve</node>
+            <node x="" y="">camelcase</node>
+            <node x="" y="">number-is-nan</node>
+            <node x="" y="">right-align</node>
+            <node x="" y="">binary-extensions</node>
+            <node x="" y="">uniqs</node>
+            <node x="" y="">uniq</node>
+            <node x="" y="">babel-plugin-transform-react-jsx-source</node>
+            <node x="" y="">regjsgen</node>
+            <node x="" y="">uniqid</node>
+            <node x="" y="">type-is</node>
+            <node x="" y="">proxy-addr</node>
+            <node x="" y="">is-integer</node>
+            <node x="" y="">send</node>
+            <node x="" y="">source-map-support</node>
+            <node x="" y="">babel-plugin-syntax-jsx</node>
+            <node x="" y="">asap</node>
+            <node x="" y="">postcss</node>
+            <node x="" y="">mime-types</node>
+            <node x="" y="">babel-plugin-transform-regenerator</node>
+            <node x="" y="">mime-db</node>
+            <node x="" y="">line-numbers</node>
+            <node x="" y="">postcss-message-helpers</node>
+            <node x="" y="">babel-helpers</node>
+            <node x="" y="">babel-plugin-transform-es2015-unicode-regex</node>
+            <node x="" y="">base64-js</node>
+            <node x="" y="">deep-equal</node>
+            <node x="" y="">ripemd160</node>
+            <node x="" y="">align-text</node>
+            <node x="" y="">process</node>
+            <node x="" y="">debug</node>
+            <node x="" y="">original</node>
+            <node x="" y="">postcss-modules-values</node>
+            <node x="" y="">postcss-svgo</node>
+            <node x="" y="">postcss-normalize-url</node>
+            <node x="" y="">cssesc</node>
+            <node x="" y="">prepend-http</node>
+            <node x="" y="">pbkdf2-compat</node>
+            <node x="" y="">brace-expansion</node>
+            <node x="" y="">sax</node>
+            <node x="" y="">js-base64</node>
+            <node x="" y="">memory-fs</node>
+            <node x="" y="">async</node>
+            <node x="" y="">object.omit</node>
+            <node x="" y="">babylon</node>
+            <node x="" y="">caniuse-db</node>
+            <node x="" y="">readable-stream</node>
+            <node x="" y="">postcss-merge-rules</node>
+            <node x="" y="">bytes</node>
+            <node x="" y="">alphanum-sort</node>
+            <node x="" y="">babel-helper-get-function-arity</node>
+            <node x="" y="">slash</node>
+            <node x="" y="">is-extendable</node>
+            <node x="" y="">arr-diff</node>
+            <node x="" y="">babel-template</node>
+            <node x="" y="">normalize-range</node>
+            <node x="" y="">indexof</node>
+            <node x="" y="">esprima</node>
+            <node x="" y="">is-dotfile</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.33116634799235184" x="1403.0" y="1338.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03807391">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
