@@ -1,4 +1,4 @@
-# react-webpack-test
+# react-pet-prj
 
 npm install webpack
 
