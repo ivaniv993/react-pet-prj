@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import RecordComponent from './RecordComponent';
-require("./../resources/styles/table-styles.css");
+require("./../../../resources/styles/table-styles.css");
 var mock = require('mockjson');
 
 export default class AppComponent extends Component {
