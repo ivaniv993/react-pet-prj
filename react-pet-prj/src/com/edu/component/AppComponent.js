@@ -9,11 +9,8 @@ export default class AppComponent extends Component {
         super(props);
         console.log("Start Initial state");
         this.state = {
-            flag: 'Ivaniv',
-            data: [],
             records: []
         };
-        //this.getProduct('http://localhost:3000/product');
 
         console.log("End Init state");
     }
@@ -75,9 +72,7 @@ export default class AppComponent extends Component {
 
             function(data){
                 console.log('Success');
-                this.state.data = JSON.parse(data);
-                this.content(this.state.data);
-                console.log('Length '+ this.state.data.length);
+                this.content(JSON.parse(data));
             }.bind(this),
 
             function(error){
